@@ -77,6 +77,7 @@ HERE ARE THE FUNCTIONS OD DATA LINK LAYER THAT NEEDS TO BE UNDERSTOOD.
 
 [![functions_of_data_link_layer_9.webp](functions_of_data_link_layer_9.webp)](https://media.geeksforgeeks.org/wp-content/uploads/20250123162342652878/functions_of_data_link_layer_8.webp)
 
+https://media.geeksforgeeks.org/wp-content/uploads/20250123162342845770/functions_of_data_link_layer_9.webp
 
 We can have wired/ wireless network Interface card. To keep the complexity to minimum, we will focus on building a wired NIC.
 
