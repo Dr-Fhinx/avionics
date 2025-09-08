@@ -53,8 +53,34 @@ HARDWARE REQUIREMENTS :
 ## STEP 002 : DECIDING COMMPONENTS AND PLANNING THE CIRCUIT
 
 ### PLANNING THE CIRCUIT :
-    BUILDING A GYROSCOPE : 
+  STEP 001 : 
+SETTING UP A GYROSCOPE : 
+
 components : microelectromechanical systems (MEMS), processor, sensor module : MPU6050 , breadboard, wires, voltage source.
+
+PIN DIAGRAM : 
+
+![20241114235404375.png](attachment:de70c617-09f5-4078-aac0-db606f2674d9:20241114235404375.png)
+
+Here, MPU6050 uses data collected from 6 AXIS : 3-axes:gyroscope and 3-axes accelerometer.
+
+Data is transferred through I2C protocol. 
+
+Vcc : input voltage for the sensor to work.
+
+Ground : to complete the circuit.
+
+Serial Clock → SCL : clock for the circuital part of communication.
+
+Serial Data → SDA : This is the place fromm where data is being transferred.
+
+Auxiallary Serial Data → Place where you can put the data from other axes like magnetometer and integrate all the 9 axes data at MPU6050 itself.
+
+Auxiallary Clock → Clock for Aux I2C protocol circuit.
+
+I2C address Select ( ADO ) → This port helps to MPU6050 have a different I2C address if a circuit is having more than one MPU6050.
+
+Interrupt Pin ( INT ) → This pin helps to reduce load from processor as it notifies to processor whenever new data has been produced and eliminating the polling process.
 
  ( to be continued… )
 ( to be continued… )
