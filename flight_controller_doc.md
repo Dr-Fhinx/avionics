@@ -52,4 +52,9 @@ HARDWARE REQUIREMENTS :
 
 ## STEP 002 : DECIDING COMMPONENTS AND PLANNING THE CIRCUIT
 
-### PLANNING THE CIRCUIT : ( to be continued… )
+### PLANNING THE CIRCUIT :
+    BUILDING A GYROSCOPE : 
+components : microelectromechanical systems (MEMS), processor, sensor module : MPU6050 , breadboard, wires, voltage source.
+
+ ( to be continued… )
+( to be continued… )
