@@ -60,7 +60,7 @@ components : microelectromechanical systems (MEMS), processor, sensor module : M
 
 PIN DIAGRAM : 
 
-![20241114235404375.png](attachment:de70c617-09f5-4078-aac0-db606f2674d9:20241114235404375.png)
+[![pin_diagram_mpu6050.png](attachment:de70c617-09f5-4078-aac0-db606f2674d9:20241114235404375.png)](https://www.ariat-tech.com/upfile/images/a2/20241114235404375.png)
 
 Here, MPU6050 uses data collected from 6 AXIS : 3-axes:gyroscope and 3-axes accelerometer.
 
